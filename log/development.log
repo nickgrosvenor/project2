@@ -4265,3 +4265,24 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-24 15:56:03
 
 
 Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-24 15:56:03 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-10-25 10:15:48 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (75.4ms)
+Completed 200 OK in 1863ms (Views: 103.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-25 10:15:56 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-25 10:15:56 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-25 10:15:56 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-25 10:15:56 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-25 10:15:56 -0700
