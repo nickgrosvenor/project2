@@ -4286,3 +4286,146 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-25 10:15:56 
 
 
 Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-25 10:15:56 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-10-25 16:22:05 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (71.8ms)
+Completed 200 OK in 672ms (Views: 617.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-25 16:22:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-25 16:22:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-25 16:22:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-25 16:22:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-25 16:22:05 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-10-27 18:06:12 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 134ms (Views: 71.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-27 18:06:12 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-27 18:06:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-27 18:06:12 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-27 18:06:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-27 18:06:12 -0700
+
+
+Started POST "/users" for 127.0.0.1 at 2013-10-27 18:06:36 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EC6lE2SjzxiL5c1EZDJ70/JvNkptunNwNDGWh29oCD4=", "user"=>{"email"=>"go@good.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8890ms
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"email"=>/\Ago@good\.com$/i} flags=[] limit=-1 skip=0 batch_size=nil fields={:_id=>1} runtime: 0.4030ms
+  MOPED: 127.0.0.1:27017 INSERT       database=auth_development collection=users documents=[{"_id"=>BSON::ObjectId('526db89c4e696301e9000000'), "email"=>"go@good.com", "salt"=>"$2a$10$H.FCK7CNLSY6krnoqfhnTu", "hashed_password"=>"$2a$10$H.FCK7CNLSY6krnoqfhnTuaRIoCOon.nsLEOWVJcy2Azy660Htrb."}] flags=[]
+                         COMMAND      database=auth_development command={:getlasterror=>1, :w=>1} runtime: 130.8550ms
+Redirected to http://localhost:3000/users/new
+Completed 302 Found in 218ms
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-10-27 18:06:36 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 8ms (Views: 7.3ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-10-28 10:59:34 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 135ms (Views: 75.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-28 10:59:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-28 10:59:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-28 10:59:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-28 10:59:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-28 10:59:34 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-10-28 11:02:27 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 17ms (Views: 4.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-28 11:02:27 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-28 11:02:27 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-28 11:02:27 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-28 11:02:27 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-28 11:02:27 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-10-28 11:02:52 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 19ms (Views: 4.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-28 11:02:52 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-28 11:02:52 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-28 11:02:52 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-28 11:02:52 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-28 11:02:52 -0700
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-10-28 11:03:06 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (28.9ms)
+Completed 200 OK in 33ms (Views: 31.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-28 11:03:06 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-28 11:03:06 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-28 11:03:06 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-28 11:03:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-28 11:03:06 -0700

@@ -4,6 +4,8 @@ Auth::Application.routes.draw do
 
  get 'dashboard' => 'dashboard#index'
 
+ get 'signup' =>  'users#new'
+
  resources :users, :authentications, :groups
 
 
