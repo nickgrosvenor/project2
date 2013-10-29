@@ -1,0 +1,20 @@
+create new game 
+<br />
+<%= form_for @game, {url:'games', method:'post'} do |u| %>
+	<%= u.label :name, "Name" %><%=u.text_field :name %><br />
+
+	<%= u.label :description, "description" %><%=u.text_field :description %><br />
+
+	<%= u.label :horse_number, "horse_number" %><%=u.text_field :horse_number %><br />
+	
+	<%= u.label :frequency, "frequency" %><%=u.text_field :frequency %><br />
+
+	<%= u.label :start, "start" %><%=u.text_field :start %><br />
+
+
+	
+	<%= u.submit %>
+<% end %>
+<hr />
+
+User id: <%= session[:user_id] %>

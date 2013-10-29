@@ -5,13 +5,15 @@ class User
 
   attr_accessor :password, :password_confirmation
 
+  field :name, type: String
   field :email, type: String
   field :salt, type: String
   field :hashed_password, type: String
-  
+
 
   # This will tell us what regions to show on the map
   has_and_belongs_to_many :ugroups, class_name:"Group", inverse_of: :gusers
+  has_many :players 
 
 
 

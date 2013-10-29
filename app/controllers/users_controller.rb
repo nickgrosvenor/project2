@@ -4,13 +4,17 @@ class UsersController < ApplicationController
 	end
 	def create
 		User.create(params[:user]
-			.permit(:email, :password, :password_confirmation))
+			.permit(:name, :email, :password, :password_confirmation))
 		redirect_to action:"new"
 	end
 
+	def index 
+		@game=Game.new
+	end	
+
 	def delete
 		User.delete(params[:user]
-			.permit(:email, :password, :password_confirmation))
+			.permit(:name, :email, :password, :password_confirmation))
 		redirect_to action:"delete"
 	end
 end
