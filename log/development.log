@@ -8546,3 +8546,630 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-30 17:44:55 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-30 17:44:55 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:13:09 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.8ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5460ms
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 4.5200ms
+Completed 200 OK in 181ms (Views: 176.7ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:13:09 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:13:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:13:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:13:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:13:09 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:18:58 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3280ms
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2630ms
+Completed 200 OK in 5ms (Views: 4.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:18:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:18:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:18:58 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:18:58 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:18:58 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:19:08 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3380ms
+Completed 200 OK in 4ms (Views: 3.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:19:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:19:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:19:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:19:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:19:08 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:21:19 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5430ms
+Completed 200 OK in 4ms (Views: 3.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:21:19 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:21:19 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:21:19 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:21:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:21:19 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:25:03 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3870ms
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2830ms
+Completed 200 OK in 25ms (Views: 24.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:25:03 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:25:03 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:25:03 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:25:03 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:25:03 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:31:45 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3430ms
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2580ms
+Completed 200 OK in 8ms (Views: 7.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:31:45 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:31:45 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:31:45 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:31:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:31:45 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:31:47 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3350ms
+Completed 200 OK in 3ms (Views: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:31:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:31:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:31:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:31:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:31:47 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:31:54 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4030ms
+Completed 200 OK in 10ms (Views: 9.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:31:54 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:31:54 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:31:54 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:31:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:31:54 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:32:05 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3370ms
+Completed 200 OK in 9ms (Views: 8.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:32:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:32:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:32:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:32:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:32:05 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:33:12 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2980ms
+Completed 200 OK in 8ms (Views: 7.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:33:12 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:33:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:33:12 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:33:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:33:12 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:33:33 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2940ms
+Completed 200 OK in 7ms (Views: 6.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:33:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:33:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:33:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:33:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:33:34 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:33:40 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2910ms
+Completed 200 OK in 6ms (Views: 6.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:33:41 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:33:41 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:33:41 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:33:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:33:41 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:33:48 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3750ms
+Completed 200 OK in 48ms (Views: 47.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:33:48 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:33:48 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:33:48 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:33:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:33:48 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:35:55 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3850ms
+Completed 200 OK in 8ms (Views: 7.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:35:55 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:35:55 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:35:55 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:35:55 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:35:55 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:36:06 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3620ms
+Completed 200 OK in 9ms (Views: 8.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:36:06 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:36:06 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:36:06 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:36:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:36:06 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:36:25 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3880ms
+Completed 200 OK in 9ms (Views: 8.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:36:25 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:36:25 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:36:25 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:36:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:36:25 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:37:01 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2880ms
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2410ms
+Completed 200 OK in 7ms (Views: 6.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:37:01 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:37:01 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:37:01 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:37:01 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:37:01 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:38:31 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4860ms
+Completed 200 OK in 8ms (Views: 7.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:38:31 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:38:31 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:38:31 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:38:31 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:38:31 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:40:01 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3000ms
+Completed 200 OK in 6ms (Views: 6.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:40:01 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:40:01 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:40:01 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:40:01 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:40:01 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:40:23 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3990ms
+Completed 200 OK in 5ms (Views: 4.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:40:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:40:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:40:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:40:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:40:23 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:43:20 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3540ms
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3480ms
+Completed 200 OK in 8ms (Views: 7.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:43:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:43:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:43:21 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:43:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:43:21 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:43:44 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4490ms
+Completed 200 OK in 9ms (Views: 8.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:43:44 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:43:44 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:43:45 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:43:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:43:45 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:45:00 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3540ms
+Completed 200 OK in 8ms (Views: 7.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:45:00 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:45:00 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:45:00 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:45:00 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:45:00 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:45:28 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3590ms
+Completed 200 OK in 4ms (Views: 3.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:45:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:45:28 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:45:28 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:45:28 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:45:28 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:45:51 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3010ms
+Completed 200 OK in 7ms (Views: 6.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:45:51 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:45:51 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:45:51 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:45:51 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:45:51 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:46:07 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5280ms
+Completed 200 OK in 8ms (Views: 7.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:46:07 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:46:07 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:46:07 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:46:07 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:46:07 -0700
+
+
+Started GET "/users/show" for 127.0.0.1 at 2013-10-31 10:46:14 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"show"}
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=auth_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52714b204e69630267040000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3900ms
+Completed 200 OK in 9ms (Views: 8.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 10:46:14 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 10:46:14 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 10:46:14 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-31 10:46:14 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 10:46:14 -0700

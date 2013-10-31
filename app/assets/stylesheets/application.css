@@ -11,3 +11,48 @@
  *= require_self
  *= require_tree .
  */
+
+.container {
+	height: 100%; 
+	width: 1100px;
+	background-color: pink;
+	margin: 0 auto;
+}
+
+.button_container{
+	float: left;
+}
+
+.time_bar {
+	height: 70px; 
+	width: 100%;
+	background-color: gray;
+}
+
+.horse_number {
+	height: 300px; 
+	width: 300px;
+	border-radius:100%;
+	background-color: blue;
+}
+
+.submit_button{
+	height: 300px; 
+	width: 300px;
+	border-radius:100%;
+	background-color: red;
+}
+
+.feed{
+	height: 600px; 
+	width: 500px;
+	float: left;
+	background-color: green;
+}
+
+.trash_talk{
+	height: 400px; 
+	width: 275px;
+	float: right;
+	background-color: yellow;
+}
