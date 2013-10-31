@@ -9,6 +9,11 @@
 </head>
 <body>
 
+<% if current_user %>
+<%= button_to "Log out", "/authentications/x", :method => :delete %>
+<% else %>
+<% end %>
+
 <%= yield %>
 
 </body>

@@ -6,9 +6,11 @@ Auth::Application.routes.draw do
 
  get 'signup' =>  'users#new'
 
+ get 'dashboard' =>  'games#index'
+
  post 'games' => 'games#create'
 
- resources :users, :authentications, :groups
+ resources :users, :authentications, :groups, :games 
 
 
 

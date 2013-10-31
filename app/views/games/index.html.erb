@@ -1,0 +1,26 @@
+list of games that have yet to start
+
+<table>
+	<% @games.each do |g| %>
+
+	 <tr>
+		<td>
+			<% if current_user %>
+				<%if @ourGames.include?(g)%>
+					
+					<%= g.name %>
+
+				<% else %>
+
+					<%= link_to g.name, g %>
+
+				<% end %>
+			<% end %>
+		</td>
+		
+	 </tr>
+	 <tr>
+		 <td><%= g.description %></td> <!--add all the fields of game.rb here-->
+	 </tr>
+	<% end %>
+</table>

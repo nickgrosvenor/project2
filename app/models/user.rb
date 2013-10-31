@@ -14,6 +14,7 @@ class User
   # This will tell us what regions to show on the map
   has_and_belongs_to_many :ugroups, class_name:"Group", inverse_of: :gusers
   has_many :players 
+ 
 
 
 
