@@ -1,24 +1,32 @@
-<div class="container">
-	
-	<div class="time_bar">
-	time bar
-	</div>
-	
-	<div class="button_container">
-		<div class="horse_number">
-		 Horse number circle 	
-		</div>	
+<% @user.players.each do |p| %>
 
-		<div class="submit_button">
-		Submit button circle	
+	<div class="container clearfix" >
+		
+		<div class="time_bar">
+			<div class="time_fill">
+			</div>	
 		</div>
-	</div>		
+		
+		<div class="button_container">
+			
+			<div class="horse_number">
+			 <h1><%=p.horse_number%></h1>
+	 	
+			</div>	
 
-	<div class="feed">
-	feed
-	</div>
+			<div class="submit_button">
+			<h1><%=link_to "+", new_submission_path(player_id: p.id)%></h1>	<%#link_to new_submissions_path(player_id: p.id)%>
+			</div>
+		</div>		
 
-	<div class="trash_talk">
-	trash talk
+		
+
+		<div class="feed">
+			<% p.submissions.each do |s| %><%=link_to s.player.user.name + " " + s.notes, s.url%><%end%>
+		</div>
+
+		<div class="trash_talk">
+
+		</div>	
 	</div>	
-</div>	
+<%end%>	

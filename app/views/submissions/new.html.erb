@@ -1,0 +1,12 @@
+<%= form_for @submission do |s| %>
+	
+	<%= s.label :url, "URL" %><%=s.text_field :url %><br />
+	<%= s.label :notes, "Notes" %><%=s.text_field :notes %><br />
+	<%=s.hidden_field "player_id", value: params[:player_id] %><br />
+
+	<%= s.submit "submit" %>
+<% end %>
+
+<hr />
+
+User id: <%= session[:user_id] %>

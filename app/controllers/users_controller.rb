@@ -17,4 +17,8 @@ class UsersController < ApplicationController
 			.permit(:name, :email, :password, :password_confirmation))
 		redirect_to action:"delete"
 	end
+
+	def show
+		@user = User.find(current_user.id)
+	end
 end
